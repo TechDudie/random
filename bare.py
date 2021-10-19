@@ -30,8 +30,8 @@ for i in freq:
     if i==1:ones+=1
 checks=0
 if score>=score_trigger:checks+=1
-if zeros>=zero_trigger:checks += 1
-if ones<=one_trigger:checks += 1
+if zeros>=zero_trigger:checks+=1
+if ones<=one_trigger:checks+=1
 if checks>=2:print("This number is not random.")
 else:
     if score>=score_trigger:print("This number is probably not random.")
