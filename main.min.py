@@ -13,7 +13,7 @@ a=a[1:-1]
 a=[a[i:i + 2] for i in f(0,len(a),2)]
 x=0
 for i in a:
-    a[x]=int(i)
+    a[x]=e(i)
     x+=1
 b=[]
 for i in f(0,100):b.append(0)
